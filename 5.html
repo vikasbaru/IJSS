@@ -21,7 +21,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Bedrag En Aantal | IJSS</title>
+    <title>Overzicht | IJSS</title>
 </head>
 
 <body>
@@ -100,105 +100,110 @@
             <div class="row">
                 <div class="col">
                     <ul class="d-flex justify-content-between list-unstyled num-list mb-4 text-center">
-                        <li class="current"><span>1</span> <span class="d-none d-md-block d-lg-inline-block">Bedrang en aantal</span></li>
-                        <li><span>2</span> <span class="d-none d-md-block d-lg-inline-block">Verpakking</span></li>
-                        <li><span>3</span> <span class="d-none d-md-block d-lg-inline-block">Gegevens</span></li>
-                        <li><span>4</span> <span class="d-none d-md-block d-lg-inline-block">Betaalmethode</span></li>
-                        <li><span>5</span> <span class="d-none d-md-block d-lg-inline-block">Overzicht</span></li>
+                        <li><i class="bi bi-check-circle-fill lh-1 align-middle"></i> <span class="d-none d-md-block d-lg-inline-block">Bedrang en aantal</span></li>
+                        <li><i class="bi bi-check-circle-fill lh-1 align-middle"></i> <span class="d-none d-md-block d-lg-inline-block">Verpakking</span></li>
+                        <li><i class="bi bi-check-circle-fill lh-1 align-middle"></i> <span class="d-none d-md-block d-lg-inline-block">Gegevens</span></li>
+                        <li><i class="bi bi-check-circle-fill lh-1 align-middle"></i> <span class="d-none d-md-block d-lg-inline-block">Betaalmethode</span></li>
+                        <li class="current"><span>5</span> <span class="d-none d-md-block d-lg-inline-block">Overzicht</span></li>
                         <li><span>6</span> <span class="d-none d-md-block d-lg-inline-block">Betalen</span></li>
                     </ul>
                     <hr>
-                    <h1 class="text-uppercase text-start d-inline-block stylish mb-5">
-                        <small>kies</small><br>
-                        <span class="text-bordered">bedrag en aantal</span>
-                    </h1>
-                    <form class="steps-form mb-4">
-                        <div class="row g-3 align-items-center mb-2 mb-xl-0">
-                            <div class="col-6 col-sm-3 col-lg-auto">
-                                <label for="" class="col-form-label">Kies aantal:</label>
-                            </div>
-                            <div class="col-6 col-sm-3 col-lg-auto">
-                                <select class="form-select form-control" aria-label="Default select example">
-                                    <option selected value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row align-items-center mb-3">
-                            <label for="" class="col-sm-3 col-form-label">Vul het gewenste bedrag in:</label>
-                            <div class="col-sm-9">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-2 mb-2 mb-xl-0">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" aria-label="..." placeholder="...">
-                                            <span class="input-group-text">€</span>
-                                          </div>
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h1 class="text-uppercase text-start d-inline-block stylish mt-3">
+                                <span class="text-bordered">overzicht</span>
+                            </h1>
+
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div>
+                                        <h6 class="text-uppercase font-bold mb-3">gegevens</h6>
+                                        <p><strong class="font-bold">Factuuradres</strong><br> 
+                                            Silvia Veldboer<br>
+                                            Wenslauerstraat 69<br>
+                                            1053AX Amsterdam
+                                        </p>
+                                        <p><strong class="font-bold">Bezorgadres</strong><br> 
+                                            Silvia Veldboer<br>
+                                            Wenslauerstraat 69<br>
+                                            1053AX Amsterdam
+                                        </p>
+                                        <p><strong class="font-bold">Contactgegevens</strong><br> 
+                                            09819819814<br>
+                                            silluv@hotmail.com
+                                        </p>
+                                        <p><a href="" class="text-dark small font-bold">wijzig gegevens</a></p>
                                     </div>
-                                    <div class="col-xl-2 col-lg-4 mb-2 mb-xl-0">
-                                        <div class="form-check font-bold">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                € 5,-
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-4 mb-2 mb-xl-0">
-                                        <div class="form-check font-bold">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                € 10,-
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-4 mb-2 mb-xl-0">
-                                        <div class="form-check font-bold">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                € 25,-
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-4 mb-2 mb-xl-0">
-                                        <div class="form-check font-bold">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                € 50,-
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-4 mb-2 mb-xl-0">
-                                        <div class="form-check font-bold">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                € 75,-
-                                            </label>
-                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="border-left-dotted ps-0 ps-md-5 mt-5 mt-md-0">
+                                        <h6 class="text-uppercase font-bold mb-3">gegevens</h6>
+                                        <p>U heeft gekozen om te betalen met:</p>
+                                        <p class="font-bold mb-1"><img src="assets/img/ideal.png" height="50px" class="me-2" alt=""> iDeal</p>
+                                        <p class="border-bottom-dotted pb-4"><a href="" class="text-dark small font-bold">kies een andere betaalmethode</a></p>
+
+                                        <h6 class="text-uppercase font-bold mb-3 mt-4">opmerking / referentie</h6>
+                                        <p><strong class="font-bold">Persoonlijke boodschap: </strong>Wijzig persoonlijke booschap</p>
+                                        <p><strong class="font-bold">Referentie: -</strong></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <label for="" class="col-sm-3 col-form-label">Maak het extra persoonlijk 
-                                met je eigen boodschap:<br><small>Vul hier persoonlijke boodschamo 
-                                    in. Deze word bijgeovoegd bij je 
-                                    cadeaubon. (max 160 karakters)</small></label>
-                            <div class="col-sm-9">
-                                <textarea name="" id="" rows="5" class="form-control" placeholder="..."></textarea>
-                                <button type="submit" class="btn btn-primary">voeg toe</button>
+                        <div class="col-lg-3">
+                            <div class="card cart bg-transparent mt-4">
+                                <h6 class="px-4 pt-4"><i class="bi bi-gift"></i> WINKELMANDJE:</h6>
+                                <ul class="list-unstyled px-4 mb-0">
+                                    <li class="row g-1">
+                                        <div class="col-8 bb py-2">
+                                            <p class="font-regular small">Keuza Cadeau-
+                                                kaart €10,- </p>
+                                        </div>
+                                        <div class="col-3 bb py-2">
+                                            <p class="font-regular small">1 stuk/s</p>
+                                        </div>
+                                        <div class="col-1 py-2">
+                                            <a href="" class="text-danger h5"><i class="bi bi-x"></i></a>
+                                        </div>
+                                    </li>
+                                    <li class="row g-1">
+                                        <div class="col-8 pt-2">
+                                            <p class="font-regular small">Subtotaal</p>
+                                        </div>
+                                        <div class="col-3 pt-2">
+                                            <p class="font-regular small">€10,00</p>
+                                        </div>
+                                        <div class="col-1 py-t">
+                                        </div>
+                                        <div class="col-8 bb pb-2">
+                                            <p class="font-regular small">Verzending via PostNL</p>
+                                        </div>
+                                        <div class="col-3 bb pb-2">
+                                            <p class="font-regular small">€1,95</p>
+                                        </div>
+                                        <div class="col-1 pb-2">
+                                        </div>
+                                    </li>
+                                    <li class="row g-1">
+                                        <div class="col-8 py-2">
+                                            <p class="font-regular small">Totaal</p>
+                                        </div>
+                                        <div class="col-3 py-2">
+                                            <p class="font-regular small">€11,95</p>
+                                        </div>
+                                        <div class="col-1 py-2">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <h6 class="p-2 mt-1 bg-dark text-white font-light">geschatte leverdatum vrjdag <b class="font-bold">day month</b></h6>
+                                <a href="" class="text-center font-bold text-dark px-5 lh-1 my-3 small">kies een andere
+                                    afleverdag</a>
                             </div>
                         </div>
-                    </form>
+                    </div>
                     <hr>
-                    <div class="row mb-5">
+                    <div class="row mb-5 pt-3">
                         <div class="col-12 text-end">
-                            <a href="" class="pt-2 btn btn-primary text-uppercase font-bold">in winkelmandje <i class="bi bi-chevron-right"></i></a>
+                            <a href="" class="pt-2 btn btn-primary text-uppercase font-bold">betalen <i class="bi bi-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
